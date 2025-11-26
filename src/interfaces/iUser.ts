@@ -3,5 +3,6 @@ export interface iUser {
   fullName: string;
   email: string;
   password: string;
+  role: string;
   active?: boolean;
 }
